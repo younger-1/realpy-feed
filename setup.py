@@ -12,7 +12,7 @@ setup(
     # 1
     name="my-realpython-reader",
     # 2
-    version="1.0.0",
+    version="1.0.1",
     description="Read the latest Real Python tutorials",
     long_description=README,
     long_description_content_type="text/markdown",
