@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "realpy-feed"
-version = "0.1.1"
+version = "0.1.0"
 description = "Read the latest Real Python tutorials"
 readme = "README.md"
 homepage = "https://github.com/younger-1/realpy-feed"

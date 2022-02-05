@@ -1,25 +1,25 @@
-# Feed Reader
+# realpy-feed
 
 > <https://realpython.com/pypi-publish-python-package/>
 
 
-The Feed Reader is a basic [web feed](https://en.wikipedia.org/wiki/Web_feed) reader that can download the latest Real Python tutorials from the [Real Python feed](https://realpython.com/contact/#rss-atom-feed).
+The realpy-feed is a basic [web feed](https://en.wikipedia.org/wiki/Web_feed) reader that can download the latest Real Python tutorials from the [Real Python feed](https://realpython.com/contact/#rss-atom-feed).
 
 For more information see the tutorial [How to Publish an Open-Source Python Package to PyPI](https://realpython.com/pypi-publish-python-package/) on Real Python.
 
 ## Installation
 
-You can install the Feed Reader from [PyPI](https://pypi.org/project/my-realpython-reader/):
+You can install the realpy-feed from [PyPI](https://pypi.org/project/realpy-feed/):
 
 ```sh
-python -m pip install my-realpython-reader
+python -m pip install realpy-feed
 ```
 
 ## How to use
 
-The Feed Reader is a command line application, named `my-realpython`. To see a list of the [latest Real Python tutorials](https://realpython.com/), call the program without any arguments:
+The Feed Reader is a command line application, named `realpy-feed`. To see a list of the [latest Real Python tutorials](https://realpython.com/), call the program without any arguments:
 
-    $ my-realpython
+    $ realpy-feed
     The latest tutorials from Real Python (https://realpython.com/)
      0 How to Publish an Open-Source Python Package to PyPI
      1 Python "while" Loops (Indefinite Iteration)
@@ -44,7 +44,7 @@ The Feed Reader is a command line application, named `my-realpython`. To see a l
 
 To read one particular tutorial, call the program with the numerical ID of the tutorial as a parameter:
 
-    $ my-realpython 0
+    $ realpy-feed 0
     # How to Publish an Open-Source Python Package to PyPI
 
     Python is famous for coming with batteries included. Sophisticated
