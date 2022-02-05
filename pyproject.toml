@@ -1,9 +1,9 @@
 [tool.poetry]
 name = "realpy-feed"
-version = "0.1.0"
+version = "0.1.1"
 description = "Read the latest Real Python tutorials"
-# readme = "README.md"
-# homepage = "https://github.com/younger-1/realpy-feed"
+readme = "README.md"
+homepage = "https://github.com/younger-1/realpy-feed"
 authors = ["Xavier Young <45989017+younger-1@users.noreply.github.com>"]
 license = "MIT"
 packages = [{include = "reader"}]
